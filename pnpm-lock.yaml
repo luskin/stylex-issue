@@ -110,6 +110,12 @@ importers:
       '@repo/typescript-config':
         specifier: workspace:*
         version: link:../typescript-config
+      '@stylexjs/babel-plugin':
+        specifier: ^0.3.0
+        version: 0.3.0(@babel/core@7.23.3)(@babel/traverse@7.23.3)(@babel/types@7.23.3)
+      '@stylexjs/eslint-plugin':
+        specifier: ^0.3.0
+        version: 0.3.0
       '@stylexjs/stylex':
         specifier: ^0.3.0
         version: 0.3.0

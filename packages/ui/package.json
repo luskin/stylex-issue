@@ -10,6 +10,8 @@
     "generate:component": "turbo gen react-component"
   },
   "devDependencies": {
+    "@stylexjs/babel-plugin": "^0.3.0",
+    "@stylexjs/eslint-plugin": "^0.3.0",
     "@repo/eslint-config": "workspace:*",
     "@repo/typescript-config": "workspace:*",
     "@stylexjs/stylex": "^0.3.0",
