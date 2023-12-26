@@ -1,5 +1,3 @@
-const path = require("path")
-
 module.exports = {
   presets: ["next/babel"],
   plugins: [
@@ -12,7 +10,7 @@ module.exports = {
         treeshakeCompensation: true,
         unstable_moduleResolution: {
           type: "commonJS",
-          rootDir: path.join(__dirname, "../.."),
+          rootDir: __dirname,
         },
       },
     ],
