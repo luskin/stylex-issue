@@ -15,3 +15,8 @@ This repository showcases the issue discussed [here](https://github.com/facebook
 3. Visit `http://localhost:3001` and you will see:
 
 ![error](./assets/error.png)
+
+4. Add all the `@stylex/...` eslint/babel configurations
+5. Re-run and see:
+
+![error-2](./assets/error-syntax.png)
