@@ -1,6 +1,9 @@
-const stylexPlugin = require("@stylexjs/nextjs-plugin")
+const path = require("path");
+
+const stylexPlugin = require("@stylexjs/nextjs-plugin");
 
 module.exports = stylexPlugin({
-  rootDir: __dirname,
+  rootDir: path.join(__dirname, "../../"),
+})({
   transpilePackages: ["@repo/ui"],
-})({})
+});
