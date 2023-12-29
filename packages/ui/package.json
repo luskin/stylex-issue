@@ -9,6 +9,12 @@
     "lint": "eslint . --max-warnings 0",
     "generate:component": "turbo gen react-component"
   },
+  "dependencies": {
+    "next": "^14.0.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "@stylexjs/stylex": "^0.4.1"
+  },
   "devDependencies": {
     "@stylexjs/babel-plugin": "^0.3.0",
     "@stylexjs/eslint-plugin": "^0.3.0",
